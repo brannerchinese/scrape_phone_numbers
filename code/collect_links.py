@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # collect_links.py
 # David Prager Branner
-# 20141008
+# 20141008, works
 
 """Download a malformed page of links, scrape it, and save the data to disk.
 
