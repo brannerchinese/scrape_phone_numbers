@@ -28,7 +28,7 @@ def main():
         page = download_page(name, url)
         links = scrape_links(page, url)
         download_linked_files(name, links, pattern)
-    print('Time: {:.0f} seconds.'.format(time.time - start_time))
+    print('Time: {:.0f} seconds.'.format(time.time() - start_time))
 
 def get_urls(url_list='urls.blur'):
     """Get the url-list from a file; return list of name/url tuples."""
